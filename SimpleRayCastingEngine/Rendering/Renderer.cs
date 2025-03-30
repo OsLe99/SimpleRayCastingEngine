@@ -13,7 +13,7 @@ namespace SimpleRayCastingEngine.Rendering
             int screenWidth = Raylib.GetScreenWidth();
             int screenHeight = Raylib.GetScreenHeight();
             int numRays = screenWidth;  // One ray per pixel column
-            float fov = MathF.PI / 2;   // 90-degree field of view
+            float fov = MathF.PI / 3;   // 60-degree field of view
             float halfFov = fov / 2;
             float maxDepth = 100;        // Maximum ray distance
 
